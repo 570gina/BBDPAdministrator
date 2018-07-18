@@ -47,4 +47,12 @@
     <servlet-name>PushServlet</servlet-name>
     <url-pattern>/PushServlet</url-pattern>
   </servlet-mapping>
+   <servlet>
+    <servlet-name>UserSuggestionServlet</servlet-name>
+    <servlet-class>com.bbdp.suggestion.UserSuggestionServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserSuggestionServlet</servlet-name>
+    <url-pattern>/UserSuggestionServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
